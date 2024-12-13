@@ -1,0 +1,52 @@
+body
+{
+    margin: 0px 250px;
+}
+
+header
+{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+footer
+{
+    background-color: gray;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 40px 40px
+    
+}
+
+div
+{
+    background-color: rgb(201, 201, 201);
+}
+
+header, footer
+{
+    border: 6px solid rgb(34, 51, 83);
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+p, h2
+{
+    padding: 8px;
+    margin: 10px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+table
+{
+    margin: auto;
+}
+
