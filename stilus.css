@@ -8,16 +8,9 @@ header
     background-color: gray;
     color: white;
     text-align: center;
-}
-
-footer
-{
-    background-color: gray;
-    margin: auto;
-    text-align: center;
-    color: white;
-    padding: 40px 40px
-    
+    border: 6px solid rgb(34, 51, 83);
+    border-left: 0px;
+    border-right: 0px;
 }
 
 div
@@ -25,17 +18,22 @@ div
     background-color: rgb(201, 201, 201);
 }
 
-header, footer
+footer
 {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 40px 40px;
     border: 6px solid rgb(34, 51, 83);
     border-left: 0px;
     border-right: 0px;
-    
 }
+
+
 
 p, h2
 {
-    padding: 8px;
+    padding: 5px;
     margin: 10px;
 }
 
@@ -45,8 +43,24 @@ p
 }
 
 
-table
+table, td, th
 {
     margin: auto;
+    width: 80%;
 }
+
+
+#alsotablazat,
+
+tr:nth-child(1n).also
+{background-color: white;}
+
+tr:nth-child(2n).also
+{background-color: rgb(185, 207, 236);}
+
+tr:nth-child(3n).also
+{ background-color: rgb(102, 165, 218);}                   
+
+   
+
 
