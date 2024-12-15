@@ -50,15 +50,15 @@ table, td, th
 }
 
 
-#alsotablazat,
 
-tr:nth-child(1n).also
+
+.also tr:nth-child(1n)
 {background-color: white;}
 
-tr:nth-child(2n).also
+.also tr:nth-child(2n)
 {background-color: rgb(185, 207, 236);}
 
-tr:nth-child(3n).also
+.also tr:nth-child(3n)
 { background-color: rgb(102, 165, 218);}                   
 
    
