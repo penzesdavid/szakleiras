@@ -29,6 +29,8 @@ footer
     border-right: 0px;
 }
 
+#footer p{text-align: center;}
+
 
 
 p, h2
@@ -42,15 +44,11 @@ p
     text-align: justify;
 }
 
-
 table, td, th
 {
     margin: auto;
     width: 80%;
 }
-
-
-
 
 .also tr:nth-child(1n)
 {background-color: white;}
@@ -59,7 +57,12 @@ table, td, th
 {background-color: rgb(185, 207, 236);}
 
 .also tr:nth-child(3n)
-{ background-color: rgb(102, 165, 218);}                   
+{ background-color: rgb(102, 165, 218);} 
+
+.also
+{
+    padding: 10px;
+}
 
    
 
